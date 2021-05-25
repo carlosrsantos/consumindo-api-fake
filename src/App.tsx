@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Modal from 'react-modal';
 
 //ContextAPI
-import { TransactionsProvider } from './TransactionContext';
+import { TransactionsProvider } from './hooks/useTransactions';
 
 //Componentes
 import { Header } from './components/Header';
